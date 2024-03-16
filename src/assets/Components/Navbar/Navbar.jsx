@@ -2,12 +2,12 @@ import frame from '../../../../public/Images/Frame 5.png'
 
 const Navbar = () => {
   return (
-    <div className='container flex justify-around mx-auto'>
+    <div className='container mt-4 flex flex-col text-center md:flex justify-around mx-auto'>
       <div>
         <h1 className='text-3xl font-bold text-black'>Recipe Calories</h1>
       </div>
       <div className=' gap-2'>
-        <ul className='flex gap-4'>
+        <ul className='md:flex gap-4'>
           <li>Home</li>
           <li>Recipes</li>
           <li>About</li>
