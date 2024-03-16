@@ -3,11 +3,11 @@ import Rectangle from '../../../../public/Images/Rectangle 1.png'
 const Banner = () => {
   return (
     <div className='container mx-auto mt-4'>
-      <div className="hero min-h-screen banner" style={{backgroundImage: `url("../../../../public/Images/Rectangle 1.png")`}}>
+      <div className="hero min-h-screen banner" style={{backgroundImage: `url(https://i.ibb.co/k66jhQ4/teodor-drobota-uyy-RJA2an4o-unsplash.jpg)`}}>
   <div className="hero-overlay bg-opacity-60 banner"></div>
   <div className="hero-content text-center text-neutral-content">
     <div className="max-w-md">
-      <h1 className="mb-3 text-3xl font-extrabold">Discover an exceptional cooking <br>
+      <h1 className="mb-3 text-4xl font-extrabold">Discover an exceptional cooking <br>
       </br> class tailored for you!</h1>
       <p className="mb-5">Learn and Basic Programming , Data Structures, Algorithm, OOP, Database and solve 500+ coding problems to become an exceptionally well world-class Programmer.                </p>
       <div className='flex justify-center gap-4'>
