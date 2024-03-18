@@ -1,18 +1,23 @@
 import React from 'react';
 
 const MenuList = ({item, handleItem}) => {
+  
   return (
-    <div className=''>
-      <div className='menu space-y-4'>
+    <div>
+      <div className='menu space-y-4 shadow-xl' style={{ width:'100%', height:'100%'}}>
       <img className='item-image' src={item.image} alt="" />
       <h2 className='text-3xl text-black font-bold'>{item.name}</h2>
       <p className='text-black text-semibold text-xl'>{item.description}</p>
-      <ul>
-        <li>{item.ingredients}</li>
-      </ul>
+      
+      <h3 className='text-2xl text-black font-bold'>Ingredients: {item.ingredients.length}</h3>
+          <ul>
+            {item.ingredients.map((ingredient, index) => (
+              <li className='text-xl' key={index}>{ingredient}</li>
+            ))}
+          </ul>
       <div className='flex justify-around'>
 
-        <p>{item.preparing_time}</p>
+        <p>{item.Preparing_time}</p>
         {item.calories}
       </div>
       

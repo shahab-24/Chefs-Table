@@ -11,5 +11,24 @@
   border: 2px solid tomato;
   box-shadow: 10px;
   border-radius: 15px;
+  background-color: bisque;
   
 }
+.B{
+  border-bottom: 2px solid red;
+  margin-bottom: 6px;
+}
+
+.sidebar{
+  border: 2px solid slateblue;
+  border-radius: 15px;
+}
+
+.card-container{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+
+
